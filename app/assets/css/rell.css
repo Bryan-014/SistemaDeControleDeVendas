@@ -1,0 +1,36 @@
+.rell-container {
+  width: 65%;
+  height: 100%;
+  padding: 15px;
+  background-color: var(--light-color);
+  border-radius: 10px;
+  margin-inline: auto;
+}
+
+.rell-table {
+  width: 100%;
+  background-color: var(--gray-color);
+  overflow-y: auto;
+}
+
+.container-filt {
+  margin-block: 17px !important;
+}
+
+@media (max-width: 840px) {
+  .d-flex {
+    display: block !important;
+  }
+
+  .w-50 {
+    width: 100% !important;
+  }
+
+  .rell-container {
+    width: 98%;
+  }
+
+  .container-filt {
+    margin-block: 5px !important;
+  }
+}

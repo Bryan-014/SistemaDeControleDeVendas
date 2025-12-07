@@ -1,0 +1,24 @@
+[13-Dec-2022 22:47:36 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'sist2339_root'@'localhost' to database 'sist2339_dbtapiocadacris' in /home1/sist2339/tdc.sistemasbrs.com.br/cardapio/assets/php/connection.php:8
+Stack trace:
+#0 /home1/sist2339/tdc.sistemasbrs.com.br/cardapio/assets/php/connection.php(8): mysqli_connect('localhost', 'sist2339_root', 'zgM.ekf*kJw=', 'sist2339_dbtapi...')
+#1 /home1/sist2339/tdc.sistemasbrs.com.br/cardapio/assets/php/util.php(4): require_once('/home1/sist2339...')
+#2 /home1/sist2339/tdc.sistemasbrs.com.br/cardapio/assets/php/call/callIndex.php(7): require_once('/home1/sist2339...')
+#3 /home1/sist2339/tdc.sistemasbrs.com.br/cardapio/index.php(1): require_once('/home1/sist2339...')
+#4 {main}
+  thrown in /home1/sist2339/tdc.sistemasbrs.com.br/cardapio/assets/php/connection.php on line 8
+[13-Dec-2022 22:48:28 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'sist2339_root'@'localhost' to database 'sist2339_dbtapiocadacris' in /home1/sist2339/tdc.sistemasbrs.com.br/cardapio/assets/php/connection.php:8
+Stack trace:
+#0 /home1/sist2339/tdc.sistemasbrs.com.br/cardapio/assets/php/connection.php(8): mysqli_connect('localhost', 'sist2339_root', 'zgM.ekf*kJw=', 'sist2339_dbtapi...')
+#1 /home1/sist2339/tdc.sistemasbrs.com.br/cardapio/assets/php/util.php(4): require_once('/home1/sist2339...')
+#2 /home1/sist2339/tdc.sistemasbrs.com.br/cardapio/assets/php/call/callIndex.php(7): require_once('/home1/sist2339...')
+#3 /home1/sist2339/tdc.sistemasbrs.com.br/cardapio/index.php(1): require_once('/home1/sist2339...')
+#4 {main}
+  thrown in /home1/sist2339/tdc.sistemasbrs.com.br/cardapio/assets/php/connection.php on line 8
+[13-Dec-2022 22:48:32 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'sist2339_root'@'localhost' to database 'sist2339_dbtapiocadacris' in /home1/sist2339/tdc.sistemasbrs.com.br/cardapio/assets/php/connection.php:8
+Stack trace:
+#0 /home1/sist2339/tdc.sistemasbrs.com.br/cardapio/assets/php/connection.php(8): mysqli_connect('localhost', 'sist2339_root', 'zgM.ekf*kJw=', 'sist2339_dbtapi...')
+#1 /home1/sist2339/tdc.sistemasbrs.com.br/cardapio/assets/php/util.php(4): require_once('/home1/sist2339...')
+#2 /home1/sist2339/tdc.sistemasbrs.com.br/cardapio/assets/php/call/callIndex.php(7): require_once('/home1/sist2339...')
+#3 /home1/sist2339/tdc.sistemasbrs.com.br/cardapio/index.php(1): require_once('/home1/sist2339...')
+#4 {main}
+  thrown in /home1/sist2339/tdc.sistemasbrs.com.br/cardapio/assets/php/connection.php on line 8

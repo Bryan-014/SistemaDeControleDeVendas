@@ -1,0 +1,82 @@
+.sell-container {
+  width: 45%;
+  height: 100%;
+  padding: 15px;
+  background-color: var(--light-color);
+  border-radius: 10px;
+}
+
+.total-container {
+  width: 45%;
+  padding: 15px;
+  background-color: var(--light-color);
+  margin-bottom: 0 !important;
+  border-radius: 10px;
+}
+
+#total {
+  font-size: 25px;
+}
+
+.table-sell {
+  width: 100%;
+  background-color: var(--gray-color);
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid var(--dark-color);
+}
+
+.callPro {
+  display: none;
+}
+
+.addLabel {
+  margin: 16px;
+}
+
+#divQrCode {
+  width: 100%;
+  word-wrap: break-word;
+  font-size: 12px;
+}
+
+@media (max-width: 840px) {
+  .d-flex {
+    display: block !important;
+  }
+
+  .sell-container {
+    margin: 15px !important;
+    width: 92%;
+    height: 100%;
+  }
+
+  .total-container {
+    margin: 15px !important;
+    width: 92%;
+  }
+
+  .form-floating {
+    width: 100% !important;
+  }
+
+  .w-45 {
+    width: 100%;
+  }
+
+  .adds-form {
+    display: flex !important;
+  }
+
+  .bt-add {
+    margin-top: 0 !important;
+    margin-left: 5px;
+    width: 100% !important;
+  }
+
+  .callPro {
+    display: block;
+    width: 100%;
+    margin-left: 5px;
+  }
+}

@@ -1,0 +1,24 @@
+.user-container {
+  width: 45%;
+  height: 100%;
+  padding: 15px;
+  background-color: var(--light-color);
+  border-radius: 10px;
+  margin-inline: auto;
+}
+
+.table-user {
+  width: 100%;
+  background-color: var(--gray-color);
+  overflow-y: auto;
+}
+
+@media (max-width: 840px) {
+  .user-container {
+    width: 98%;
+  }
+
+  .d-flex {
+    display: block !important;
+  }
+}

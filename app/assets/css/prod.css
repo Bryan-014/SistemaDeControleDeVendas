@@ -1,0 +1,20 @@
+.prod-container {
+  width: 65%;
+  height: 100%;
+  padding: 15px;
+  background-color: var(--light-color);
+  border-radius: 10px;
+  margin-inline: auto;
+}
+
+.prod-table {
+  width: 100%;
+  background-color: var(--gray-color);
+  overflow-y: auto;
+}
+
+@media (max-width: 840px) {
+  .prod-container {
+    width: 98%;
+  }
+}

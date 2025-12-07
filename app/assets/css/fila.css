@@ -1,0 +1,63 @@
+.fila-container {
+  width: 85%;
+  height: 100%;
+  padding: 15px;
+  background-color: var(--light-color);
+  border-radius: 10px;
+  margin-inline: auto;
+}
+
+.ord-container {
+  width: 45%;
+  height: 100%;
+  padding: 15px;
+  background-color: var(--light-color);
+  border-radius: 10px;
+  margin-inline: auto;
+}
+
+.callPro {
+  display: none;
+}
+
+#divQrCode {
+  width: 100%;
+  word-wrap: break-word;
+  font-size: 12px;
+}
+
+.table-fila {
+  width: 100%;
+  background-color: var(--gray-color);
+  overflow-y: auto;
+}
+
+@media (max-width: 840px) {
+  .fila-container {
+    width: 98%;
+  }
+
+  .ord-container {
+    width: 98%;
+  }
+
+  .d-flex {
+    display: block !important;
+  }
+
+  .form-floating {
+    width: 100% !important;
+  }
+
+  .bt-add {
+    margin-top: 0 !important;
+    margin-left: 5px;
+    width: 100% !important;
+  }
+
+  .callPro {
+    display: block;
+    width: 100%;
+    margin-left: 5px;
+  }
+}

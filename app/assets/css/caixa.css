@@ -1,0 +1,20 @@
+.caixa-container {
+  width: 85%;
+  height: 100%;
+  padding: 15px;
+  background-color: var(--light-color);
+  border-radius: 10px;
+  margin-inline: auto;
+}
+
+.table-caixa {
+  width: 100%;
+  background-color: var(--gray-color);
+  overflow-y: auto;
+}
+
+@media (max-width: 840px) {
+  .caixa-container {
+    width: 98%;
+  }
+}

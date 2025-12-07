@@ -1,0 +1,48 @@
+.leaflet-bottom.leaflet-right {
+  display: none;
+}
+table {
+  margin-inline: auto;
+}
+h3 {
+  text-align: center;
+}
+.table {
+  width: 100% !important;
+  background-color: var(--gray-color) !important;
+  overflow-y: auto;
+}
+.card-container {
+  width: 43%;
+  height: 100%;
+  padding: 15px;
+  background-color: var(--light-color);
+  border-radius: 10px;
+  margin-inline: auto;
+}
+
+#mapa {
+  width: 50%;
+  height: 250px;
+  margin-inline: auto;
+  border: 1px solid #000;
+}
+
+@media (max-width: 840px) {
+  .d-flex {
+    display: block !important;
+  }
+
+  .card-container {
+    width: 96%;
+    height: 100%;
+    padding: 15px;
+    background-color: var(--light-color);
+    border-radius: 10px;
+    margin-inline: auto;
+  }
+
+  #mapa {
+    width: 96%;
+  }
+}
